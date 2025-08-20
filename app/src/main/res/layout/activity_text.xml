@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".TextActivity">
+
+    <!--Text View-->
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:background="#199420"
+        android:textColor="#ffffff"
+        android:text="Happy Birthday Shahzaib!"
+        android:textSize="24sp"
+        android:textAllCaps="true"
+        android:padding="10dp"
+        android:textStyle="italic"
+        android:gravity="center"/>
+
+    <!--    Image View-->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_background"
+        android:padding="10dp"
+        />
+
+    <!--    Text View -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Party in the hall!"
+        android:padding="10dp"
+        />
+
+</LinearLayout>

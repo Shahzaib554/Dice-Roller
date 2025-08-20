@@ -8,6 +8,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
+    android:background="@color/cardview_dark_background"
     tools:context=".TextActivity">
 
     <!--Text View-->
@@ -40,6 +41,9 @@
         android:layout_height="wrap_content"
         android:text="Party in the hall!"
         android:padding="10dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
         />
 
 </LinearLayout>
